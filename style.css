@@ -1,0 +1,364 @@
+/* Configuraçóes Gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+/* Cabeçalho */
+
+header {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 48px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav {
+    padding-right: 450px;   
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 24px;
+}
+
+.menu li a {
+    color: #111;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu li a > i{
+    margin-left: 10px;
+}
+
+.login {
+    color: #820AD1;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login > i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/* Configuração sessões */
+
+.sessao {
+    width: 100%;
+    padding: 100px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    padding: 24px;
+}
+
+.box h2 {
+    font-size: 2.8rem;
+    padding-bottom: 20px;
+}
+
+.box p {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.box-link {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.box-link > i {
+    margin-left: 10px;
+}
+
+/* Sessão 1 */
+
+#s1 {
+    color: #fff;
+    background-image: url("./imagens/s1.jpg");
+    background-repeat: no-repeat;
+}
+
+#s1 a {
+    color: #fff;
+}
+
+#s1 > .box {
+    width: 35%;
+}
+
+#s1 > .formcpf {
+    max-width: 330px;
+    height: 300px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+#s1 > .formcpf h3 {
+    font-size: 1.5rem;
+    color: #111;
+    margin-bottom: 32px;
+}
+
+#s1 > .formcpf input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+#s1 > .formcpf .btn {
+    cursor: pointer;
+    width: 100%;
+    padding: 0 20px;
+    height: 3rem;
+    background-color: #820AD1;
+    border-radius: 6.25rem;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Sessão 2, 3, 4 */
+
+#s2 {
+    color: #111;
+}
+
+#s2 a,
+#s3 a, 
+#s4 a {
+    text-decoration: none;
+    color: #820AD1;
+}
+
+#s2 > .box,
+#s3 > .box,
+#s4 > .box {
+    width: 50%;
+}
+
+#s2 > .box:nth-of-type(2),
+#s3 > .box:nth-of-type(2),
+#s4 > .box:nth-of-type(2) {
+    width: 50%;
+}
+
+#s2 > .box > img {
+    width: 100%;
+}
+
+/* Sessão 3 e 4 */
+
+#s3 {
+    color: #111;
+    background: rgb(245, 245, 245);
+}
+
+#s3 > .box > img,
+#s4 > .box > img {
+    max-height: 479px;
+}
+
+#s4 > .box > img {
+    padding-left: 80px;
+}
+
+/* Sessão 5, 6 e 7 */
+
+#s5 h2,
+#s6 h2,
+#s7 h2,
+#s5 a,
+#s6 a,
+#s7 a {
+    color: #fff !important;
+}
+
+#s5 > .box,
+#s6 > .box,
+#s7 > .box {
+    width: 50%;
+    height: 400px;
+}
+
+#s5 {
+    background-image: url("/imagens/s5.jpg");
+    background-repeat: no-repeat;
+}
+
+#s6 {
+    background-image: url("/imagens/s6.jpg");
+    background-repeat: no-repeat;
+}
+
+#s7 {
+    background-image: url("/imagens/s7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover  ;
+}
+
+footer {
+    color: #e4e4e4;
+    background-color: #111;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+footer h2 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    padding: 5px 0;
+}
+
+footer a {
+    color: #e4e4e4;
+    text-decoration: none;
+}
+
+footer a > i {
+    color: #ccc;
+    margin-left: 10px;
+}
+
+.r1, .r2, .r3, .r4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 50px;
+}
+
+.r1, .r2, .r3 {
+    border-bottom: 1px solid rgb(25, 25, 25);
+}
+
+footer ul {
+    width: 25%;
+    padding: 20px;
+}
+
+footer > .r2 > ul:nth-of-type(4) {
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.r3 p{
+    font-size: 1rem;
+    width: 54%;
+    padding-right: 100px;
+}
+
+.r3 > .box-icons i{
+    padding: 10px;
+}
+
+.r4 {
+    display: flex;
+    justify-content: right;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+    font-size: 1rem;
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+[type="radio"]:checked + label:nth-of-type(1),
+[type="radio"]:not(:checked) + label:nth-of-type(1) {
+    padding-right: 50px;
+}
+
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #bbb;
+    border-radius: 100%;
+    background: #111;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #bbb;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    border-radius: 100%;
+    transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+}
