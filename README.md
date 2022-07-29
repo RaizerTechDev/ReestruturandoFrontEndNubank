@@ -9,3 +9,7 @@ Olá 👋
 ⏭ Link para o site😀👇
 
 # https://rafarz76.github.io/ReestruturandoFrontEndNubank/
+
+▶ 😀👀Bora lá....
+
+Gostou, então já deixa a🌟
